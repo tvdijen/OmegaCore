@@ -51203,7 +51203,7 @@ if ($set_utils:intersection($syslog.log_no_input, verbs))
 "There may be passwords involved.. We don't want to log those!";
 input = 0;
 endif
-if ((!({#-1, ""} in verbs)) && is_player(stack[1][4]))
+if ((!({#-1, ""} in verbs)) && (!is_player(stack[1][4])))
 "This is no eval, so the verb must exist";
 first_line = verb_code(stack[1][4], stack[1][2])[1];
 if (strcmp(first_line, "\"Testing\";") != 0)
@@ -51321,7 +51321,7 @@ if ($set_utils:intersection($syslog.log_no_input, verbs))
 "There may be passwords involved.. We don't want to log those!";
 input = 0;
 endif
-if ((!({#-1, ""} in verbs)) && is_player(stack[1][4]))
+if ((!({#-1, ""} in verbs)) && (!is_player(stack[1][4])))
 "We are sure the verb exists and that it has at least one line of code, otherwise we wouldn't end up here -Goblin";
 first = verb_code(stack[1][4], stack[1][2])[1];
 if (strcmp(first[1], "\"Testing\";") != 0)
