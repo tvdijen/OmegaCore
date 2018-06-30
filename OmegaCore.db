@@ -10,7 +10,7 @@
 0 values pending finalization
 0 clocks
 1 queued tasks
-0 5 1529705005 1915588632
+0 5 1530385168 1809036383
 0
 -111
 1
@@ -93,7 +93,7 @@ this:(verb)();
 0 interrupted tasks
 1 active connections with listeners
 2 0
-114
+113
 #0
 The System Object
 24
@@ -106,7 +106,7 @@ The System Object
 1
 4
 0
-25
+27
 do_login_command
 2
 173
@@ -207,7 +207,15 @@ bf_is_player is_player
 2
 173
 -1
-123
+bf_set_verb_code
+2
+173
+-1
+bf_verb_code
+2
+173
+-1
+124
 builder
 login
 last_huh
@@ -331,7 +339,8 @@ ansi_options
 mcp
 syslog_options
 syslog
-127
+compiler_utils
+128
 1
 4
 2
@@ -349,7 +358,7 @@ syslog
 2
 1
 0
-1529703205
+1530381568
 2
 5
 1
@@ -916,6 +925,10 @@ LambdaMOO
 32
 2
 1
+1
+112
+36
+1
 5
 2
 4
@@ -1195,7 +1208,7 @@ Wizard
 1
 62
 4
-6
+7
 1
 97
 1
@@ -1208,6 +1221,8 @@ Wizard
 32
 1
 69
+1
+112
 1
 57
 4
@@ -2194,7 +2209,7 @@ beep
 4
 2
 0
-1529703304
+1529703960
 2
 10.4.13.2
 2
@@ -2203,7 +2218,7 @@ beep
 2
 0
 0
-1529703960
+1530381568
 2
 1
 0
@@ -2226,7 +2241,7 @@ beep
 36
 1
 4
-38
+39
 1
 0
 1
@@ -2303,6 +2318,8 @@ beep
 111
 1
 110
+1
+113
 2
 1
 5
@@ -2321,7 +2338,7 @@ beep
 2
 0
 2
-port 1234 from 10.4.13.2, port 61650
+port 7777 from 10.4.13.2, port 53342
 2
 0
 5
@@ -2357,7 +2374,7 @@ local
 2
 5
 0
-1529703960
+1530381649
 2
 1
 0
@@ -2432,7 +2449,7 @@ it
 0
 1084848672
 0
-0
+1
 36
 0
 0
@@ -2443,7 +2460,7 @@ it
 2
 0
 12
-114
+113
 2
 1
 0
@@ -4831,7 +4848,7 @@ Sorry, but there's no help here yet.  Type `?' for a list of commands.
 4
 1
 1
--3
+-2
 2
 5
 4
@@ -4849,7 +4866,13 @@ Sorry, but there's no help here yet.  Type `?' for a list of commands.
 2
 4
 4
-7
+8
+4
+2
+0
+1530381568
+0
+0
 4
 2
 0
@@ -4995,7 +5018,7 @@ For assistance either now or later, type `help'.
 2
 5
 0
-0
+1
 2
 5
 5
@@ -22439,7 +22462,7 @@ init_for_core
 2
 1
 0
-37330
+37331
 36
 0
 5
@@ -22501,7 +22524,7 @@ init_for_core
 0
 1008125633
 0
-1510460
+1510461
 36
 0
 5
@@ -29161,17 +29184,19 @@ feature_task
 4
 9
 0
-1204607383
+1658489503
 2
-@dump-0d
+@
 4
-0
-2
-
 1
--1
 2
-
+d#113:
+2
+d#113:
+1
+-3
+2
+d#113:
 2
 
 1
@@ -33840,11 +33865,7 @@ Recycling Center
 1
 -1
 4
-2
-1
-113
-1
-112
+0
 1
 5
 4
@@ -33932,6 +33953,8 @@ lost_souls
 4
 5
 12
+114
+12
 115
 12
 116
@@ -33939,8 +33962,6 @@ lost_souls
 117
 12
 118
-12
-119
 36
 1
 2
@@ -33952,7 +33973,7 @@ lost_souls
 36
 0
 4
-11
+12
 4
 2
 1
@@ -33988,13 +34009,19 @@ lost_souls
 1
 102
 12
-115
+114
 4
 2
 1
 102
 1
 112
+4
+2
+1
+102
+12
+115
 4
 2
 1
@@ -34016,13 +34043,15 @@ lost_souls
 4
 2
 1
-102
-12
-119
+2
+1
+112
 36
 0
 4
-0
+1
+1
+112
 36
 5
 5
@@ -34083,11 +34112,7 @@ Generic Garbage Object
 1
 -1
 4
-2
-1
-113
-1
-112
+0
 5
 description
 2
@@ -37616,7 +37641,7 @@ Generic Utilities Package
 1
 1
 4
-21
+22
 1
 20
 1
@@ -37659,6 +37684,8 @@ Generic Utilities Package
 93
 1
 101
+1
+112
 0
 1
 help_msg
@@ -38339,7 +38366,7 @@ init_for_core
 2
 173
 -1
-15
+17
 protect_chparent
 protect_add_verb
 protect_add_property
@@ -38355,7 +38382,9 @@ protect_set_property_info
 fg_ticks
 bg_ticks
 protect_is_player
-19
+protect_set_verb_code
+protect_verb_code
+21
 0
 1
 2
@@ -38480,6 +38509,14 @@ If those properties exist and are numbers, the server use them instead of the co
 40000
 2
 5
+0
+1
+36
+1
+0
+1
+36
+1
 0
 1
 36
@@ -50288,43 +50325,72 @@ Object #111
 36
 1
 #112
-Recyclable #112
+Compiler Utilities
+0
+2
+1
+2
+4
+0
+1
+78
+4
+0
+5
+unpack_verb_code
+36
+173
+-1
+pack_verb_code
+36
+173
+-1
+match_external_compiler
+36
+173
+-1
+parse_content_type
+36
+173
+-1
+generate_content_type
+36
+173
+-1
+1
+external_compilers
+6
+10
 0
 36
-1
-63
-4
-0
-1
-64
-4
-0
-0
-0
 1
 5
-36
-1
-#113
-Recyclable #113
-0
-36
-1
-63
-4
-0
-1
-64
-4
-0
-0
-0
-1
+2
 5
+0
+0
+2
+4
+4
+1
+2
+Compiler Utilities
+2
+5
+2
+This is a placeholder parent for all the $..._utils packages, to more easily find them and manipulate them. At present this object defines no useful verbs or properties. (Filfre.)
+2
+5
+4
+2
+0
+0
+0
+0
 36
 1
 6
-#114
+#113
 session for #2
 0
 2
@@ -50361,7 +50427,7 @@ session for #2
 102
 1
 2
-Nde,9u
+VdweSc
 102
 0
 0
@@ -50405,7 +50471,7 @@ mcp-negotiate-end
 0
 36
 1
-#115
+#114
 session for #102
 0
 102
@@ -50486,7 +50552,7 @@ mcp-negotiate-end
 0
 36
 1
-#116
+#115
 session for #102
 0
 102
@@ -50567,7 +50633,7 @@ mcp-negotiate-end
 0
 36
 1
-#117
+#116
 session for #102
 0
 102
@@ -50648,7 +50714,7 @@ mcp-negotiate-end
 0
 36
 1
-#118
+#117
 session for #102
 0
 102
@@ -50729,7 +50795,7 @@ mcp-negotiate-end
 0
 36
 1
-#119
+#118
 session for #102
 0
 102
@@ -50811,7 +50877,7 @@ mcp-negotiate-end
 36
 1
 0
-1811
+1818
 #0:0
 "...This code should only be run as a server task...";
 if (callers())
@@ -51358,6 +51424,150 @@ retval = is_player(what);
 endif
 return ((typeof(retval) == ERR) && $code_utils:dflag_on()) ? raise(retval) | retval;
 .
+#0:25
+{object, verb, code, @options} = args;
+"check arguments and permissions";
+valid(object) || raise(E_INVARG);
+`{owner, flags, name} = verb_info(object, verb) ! ANY' || raise(E_VERBNF);
+perms = caller_perms();
+((perms.wizard || (perms == owner)) || index(flags, "w")) || raise(E_PERM);
+perms.programmer || raise(E_PERM);
+"grab verb code before dropping perms";
+verb_code = verb_code(object, verb);
+"drop wiz-perms";
+set_task_perms(perms);
+"interpret optional arguments";
+raw = 1;
+content_type = 0;
+do_not_version = 0;
+do_not_stamp = 0;
+if (options)
+if (typeof(options[1]) == MAP)
+raw = `options[1]["raw"] ! E_RANGE';
+content_type = `options[1]["content_type"] ! E_RANGE' || `options[1]["content-type"] ! E_RANGE';
+do_not_version = `options[1]["do_not_version"] ! E_RANGE' || `options[1]["do-not-version"] ! E_RANGE';
+do_not_stamp = `options[1]["do_not_stamp"] ! E_RANGE' || `options[1]["do-not-stamp"] ! E_RANGE';
+elseif ((typeof(options[1]) == STR) && (options[1] == "raw"))
+raw = "raw";
+elseif (typeof(options[1]) == STR)
+raw = 0;
+content_type = options[1];
+endif
+if (raw && content_type)
+raise(E_INVARG);
+endif
+endif
+chunks = {};
+if (verb_code)
+chunks = $compiler_utils:unpack_verb_code(verb_code);
+endif
+"If no options are specified, use the content type of the verb";
+"source as the content type.  This alternative exists only to support";
+"legacy editors/tools.  It may be removed.";
+if ((!options) && (!content_type))
+if (`content_type = chunks[2]["metadata"]["content_type"] ! E_RANGE')
+raw = 0;
+endif
+endif
+"Programmers can disable versioning (writing \"state\" and \"revision\")";
+"and stamping (writing \"updated_at\" and \"updated_by\"), however this";
+"only works the first time the verb code is set (the purpose of this";
+"functionality is to support package loading and other kinds of";
+"object migration).";
+(do_not_version && chunks) && raise(E_INVARG);
+(do_not_stamp && chunks) && raise(E_INVARG);
+if ((raw && code) && (code[$] == "\"-=-=-mxyzptlk-=-=-\";"))
+return {"Illegal use of marker"};
+elseif (content_type)
+#111:tell(toliteral(content_type));
+source = code;
+"parse the content type to validate it, then generate it in canonical form";
+{type, attributes} = $compiler_utils:parse_content_type(content_type);
+content_type = $compiler_utils:generate_content_type({type, attributes});
+"natively supported... no external compilation necessary";
+if ((type == "application/x-moocode") && (!attributes))
+"find an external compiler and compile";
+elseif (`valid(compiler = $compiler_utils:match_external_compiler(type, attributes)) ! ANY')
+{status, code} = compiler:compile(code, attributes);
+if (!status)
+return code;
+endif
+"fail";
+else
+return {tostr("Unknown content type:  ", content_type)};
+endif
+"If the most recent revision is clean, increment the revision and";
+"keep all prior revisions.  Else, replace the revision.";
+if (length(chunks) > 1)
+if (`chunks[2]["metadata"]["state"] ! E_RANGE' == "clean")
+revision = `toint(chunks[2]["metadata"]["revision"]) + 1 ! E_RANGE => 1';
+keep = chunks[2..$];
+else
+revision = `toint(chunks[2]["metadata"]["revision"]) ! E_RANGE => 1';
+keep = chunks[3..$];
+endif
+else
+revision = 1;
+keep = {};
+endif
+metadata = ["chunk_type" -> "source", "chunk_length" -> length(source), "content_type" -> content_type, "sha1" -> value_hash(source, "sha1")];
+if ((!do_not_version) || chunks)
+metadata["state"] = "dirty";
+metadata["revision"] = revision;
+endif
+if ((!do_not_stamp) || chunks)
+metadata["updated_at"] = ctime(time());
+metadata["updated_by"] = perms;
+endif
+code = $compiler_utils:pack_verb_code({["code" -> code], ["metadata" -> metadata, "source" -> source], @keep});
+endif
+return set_verb_code(object, verb, code);
+.
+#0:26
+{object, verb, @options} = args;
+"check arguments and permissions";
+valid(object) || raise(E_INVARG);
+`{owner, flags, name} = verb_info(object, verb) ! ANY' || raise(E_VERBNF);
+perms = caller_perms();
+((perms.wizard || (perms == owner)) || index(flags, "r")) || raise(E_PERM);
+perms.programmer || raise(E_PERM);
+"drop wiz-perms";
+set_task_perms(perms);
+"interpret optional arguments";
+raw = 0;
+fully_parenthesize = 0;
+indent = 1;
+if (options)
+if (typeof(options[1]) == MAP)
+`raw = options[1]["raw"] ! E_RANGE';
+`fully_parenthesize = options[1]["fully_parenthesize"] || options[1]["fully-parenthesize"] ! E_RANGE';
+`indent = options[1]["indent"] ! E_RANGE';
+`revision = options[1]["revision"] ! E_RANGE';
+elseif (typeof(options[1]) == STR)
+raw = "raw" in options;
+fully_parenthesize = ("fully_parenthesize" in options) || ("fully-parenthesize" in options);
+indent = "indent" in options;
+elseif (typeof(options[1]) == INT)
+`fully_parenthesize = options[1] ! E_RANGE';
+`indent = options[2] ! E_RANGE';
+endif
+endif
+code = verb_code(object, verb, fully_parenthesize, indent);
+chunks = $compiler_utils:unpack_verb_code(code);
+if (`revision ! ANY' != E_VARNF)
+n = 0;
+for chunk, i in (chunks)
+if ((`toint(chunk["metadata"]["revision"]) ! E_RANGE, E_TYPE' == revision) && revision)
+n = i;
+break;
+endif
+endfor
+(!n) && raise(E_INVARG, "No such revision");
+else
+n = 2;
+endif
+return ((!raw) && (length(chunks) > 1)) ? chunks[n]["source"] | chunks[1]["code"];
+.
 #1:0
 if ((typeof(this.owner.owned_objects) == LIST) && (typeof(this) != ANON))
 this.owner.owned_objects = setadd(this.owner.owned_objects, this);
@@ -51373,9 +51583,7 @@ return E_PERM;
 endif
 .
 #1:1
-#2:tell("OK 1");
 if ((caller == this) || $perm_utils:controls(caller_perms(), this))
-#2:tell("OK 2");
 try
 if ((typeof(this.owner.owned_objects) == LIST) && (!is_clear_property(this.owner, "owned_objects")))
 this.owner.owned_objects = setremove(this.owner.owned_objects, this);
@@ -86670,4 +86878,158 @@ result = {@result, {opt, value}};
 endfor
 return result;
 endif
+.
+#112:0
+{code} = args;
+"Not $private() but maybe should be.  The existance and interface";
+" are subject to change.  No obvious security problems, though.";
+(typeof(code) == LIST) || raise(E_INVARG);
+"State:";
+"   0 = done";
+"   1 = looking for a boundary";
+"   2 = reading metadata";
+"   3 = reading source";
+state = 1;
+"Strinctly speaking, \"chunk_length\" is optional.  If it's present,";
+" use the value to skip past lines of source.  Otherwise, use the";
+" more error-prone search-for-the-boundary method.";
+chunks = {};
+chunk = [];
+chunk_length = 0;
+i = length(code);
+while (state && i)
+((ticks_left() < 10000) || (seconds_left() < 2)) && suspend(0);
+line = code[i];
+i = i - 1;
+if ((state == 1) && (line == "\"-=-=-mxyzptlk-=-=-\";"))
+chunk = ["metadata" -> []];
+chunk_length = 0;
+state = 2;
+elseif (state == 1)
+i = i + 1;
+state = 0;
+elseif ((state == 2) && (r = match(line, "^\"%([-_a-z0-9]+%)%:%(.+%)\";$")))
+key = r[4][r[3][1][1]..r[3][1][2]];
+value = r[4][r[3][2][1]..r[3][2][2]];
+chunk_length = (key == "chunk_length") ? toint(value) | 0;
+chunk["metadata"][key] = value;
+elseif ((state == 2) && (line == "\"\";"))
+chunk["source"] = {};
+for line in (code[(i - chunk_length) + 1..i])
+chunk["source"] = {@chunk["source"], strsub(strsub(line[2..$ - 2], "\\\"", "\""), "\\\\", "\\")};
+endfor
+i = i - chunk_length;
+state = 3;
+elseif ((state == 3) && (line == "return;"))
+chunks = {chunk, @chunks};
+state = 0;
+elseif ((state == 3) && (line == "\"-=-=-mxyzptlk-=-=-\";"))
+chunks = {chunk, @chunks};
+chunk = ["metadata" -> []];
+chunk_length = 0;
+state = 2;
+elseif ((state == 3) && (r = match(line, ((((("^\"%(%(" + "[^\\\"]+") + "%|") + "\\\\") + "%|") + "\\\"") + "%)*%)\";$")))
+line = strsub(strsub(r[4][r[3][1][1]..r[3][1][2]], "\\\"", "\""), "\\\\", "\\");
+chunk["source"] = {line, @chunk["source"]};
+elseif (state == 2)
+raise(E_INVARG, tostr("Bad metadata:  ", line));
+elseif (state == 3)
+raise(E_INVARG, tostr("Missing return:  ", line));
+else
+raise(E_INVARG);
+endif
+endwhile
+if (state > 1)
+raise(E_INVARG, "Corrupt source");
+endif
+chunks = {["code" -> code[1..i]], @chunks};
+return chunks;
+.
+#112:1
+{chunks} = args;
+"Not $private() but maybe should be.  The existance and interface";
+" are subject to change.  No obvious security problems, though.";
+(typeof(chunks) == LIST) || raise(E_INVARG);
+"State:";
+"   1 = adding code chunk";
+"   2 = adding first source chunk";
+"   3 = adding source chunk";
+state = 1;
+code = {};
+for chunk in (chunks)
+((ticks_left() < 10000) || (seconds_left() < 2)) && suspend(0);
+if (state > 1)
+source = {};
+if (state == 2)
+source = {"return;"};
+state = 3;
+endif
+for line in (chunk["source"])
+source = {@source, toliteral(line) + ";"};
+endfor
+metadata = {};
+for value, key in (chunk["metadata"])
+metadata = {@metadata, toliteral(tostr(key, ":", value)) + ";"};
+endfor
+code = {@code, @source, "\"\";", @metadata, "\"-=-=-mxyzptlk-=-=-\";"};
+else
+code = chunk["code"];
+state = 2;
+endif
+endfor
+return code;
+.
+#112:2
+{type, attributes, ?external_compilers = this.external_compilers} = args;
+for value, key in (external_compilers)
+if ((parsed = this:parse_content_type(key)) && (parsed[1] == type))
+pattern = `parsed[2]["version"] ! E_RANGE';
+version = `attributes["version"] ! E_RANGE';
+if (!pattern)
+return value;
+elseif (version)
+pattern = strsub(strsub(pattern, ".", "%."), "*", "[^%.]*");
+if (match(version, pattern))
+return value;
+endif
+endif
+endif
+endfor
+return $failed_match;
+.
+#112:3
+{content_type} = args;
+"Not $private() but maybe should be.  The existance and interface";
+"are subject to change.  No obvious security problems, though.";
+parts = {};
+while (content_type && (i = index(content_type, ";")))
+parts = {@parts, content_type[1..i - 1]};
+content_type = content_type[i + 1..$];
+endwhile
+parts = {@parts, content_type};
+if (parts)
+{type, @parts} = parts;
+r = match(type, "^ *%([^ ]+%) *$");
+type = type[r[3][1][1]..r[3][1][2]];
+attributes = [];
+for part in (parts)
+if (r = match(part, "^ *%([^ ]+%) *%= *%([^ ]+%) *$"))
+key = part[r[3][1][1]..r[3][1][2]];
+value = part[r[3][2][1]..r[3][2][2]];
+attributes[key] = value;
+endif
+endfor
+return {type, attributes};
+endif
+return {};
+.
+#112:4
+{content_type} = args;
+"Not $private() but maybe should be.  The existance and interface";
+"are subject to change.  No obvious security problems, though.";
+{type, attributes} = content_type;
+for attribute in (mapkeys(attributes))
+type = tostr(type, ";", attribute, "=", attributes[attribute]);
+endfor
+return type;
 .
