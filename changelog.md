@@ -5,7 +5,9 @@ Released TBD
 ### Features
   * ANSI 2.2
   * MCP 2.1
-  * Syslog-object 
+  * Syslog-object
+  * Composed + Shapes
+  * $compiler_utils
 
 ### Changes
   * Replaced old-style crypt-passwords with proper SHA512 hashes
