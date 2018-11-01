@@ -10,7 +10,7 @@
 0 values pending finalization
 0 clocks
 1 queued tasks
-0 5 1530385168 1809036383
+0 5 1541109432 1746329942
 0
 -111
 1
@@ -360,7 +360,7 @@ composed
 2
 1
 0
-1530381568
+1541106654
 2
 5
 1
@@ -566,7 +566,7 @@ Objects holding useful general-purpose verbs
 2
 5
 1
-98
+88
 2
 5
 1
@@ -1222,9 +1222,7 @@ Wizard
 1
 62
 4
-9
-1
-97
+8
 1
 111
 1
@@ -1391,7 +1389,7 @@ eval_time
 36
 1
 0
-1196260027
+1557865173
 2
 5
 4
@@ -1414,15 +1412,16 @@ eval_time
 5
 2
 5
-5
+4
+0
 2
 5
 4
 6
 0
-24
+12308
 0
-1507652456
+1541105956
 4
 3
 1
@@ -1458,705 +1457,15 @@ eval_time
 2
 4
 4
-24
-4
-2
-0
-1
-4
-12
-0
-1507476782
-2
-The System Object (#0)
-2
-Wizard (#2) and Mcp_Owner (#102)
-2
-traceback
-2
-Sender:   Wizard (#2)
-2
-
-2
-#106:create_session (this == #106), line 4:  Resource limit exceeded
-2
-... called from #106:initialize_connection (this == #106), line 5
-2
-... called from #106:user_created user_connected user_reconnected (this == #106), line 6
-2
-... called from #0:user_created user_connected (this == #0), line 4
-2
-(End of traceback)
-2
-Input was unknown.
-4
-2
 0
 2
 4
-12
-0
-1507477039
-2
-The System Object (#0)
-2
-Wizard (#2) and Mcp_Owner (#102)
-2
-traceback
-2
-Sender:   Wizard (#2)
-2
-
-2
-#106:create_session (this == #106), line 4:  Resource limit exceeded
-2
-... called from #106:initialize_connection (this == #106), line 5
-2
-... called from #106:user_created user_connected user_reconnected (this == #106), line 6
-2
-... called from #0:user_created user_connected (this == #0), line 4
-2
-(End of traceback)
-2
-Input was unknown.
 4
-2
-0
-3
-4
-12
-0
-1507477067
-2
-The System Object (#0)
-2
-Wizard (#2) and Mcp_Owner (#102)
-2
-traceback
-2
-Sender:   Wizard (#2)
-2
-
-2
-#106:create_session (this == #106), line 5:  Permission denied
-2
-... called from #106:initialize_connection (this == #106), line 5
-2
-... called from #106:user_created user_connected user_reconnected (this == #106), line 6
-2
-... called from #0:user_created user_connected (this == #0), line 4
-2
-(End of traceback)
-2
-Input was unknown.
-4
-2
-0
-4
-4
-14
-0
-1507477122
-2
-The System Object (#0)
-2
-Wizard (#2) and Mcp_Owner (#102)
-2
-traceback
-2
-Sender:   Wizard (#2)
-2
-
-2
-#79:parse_create_args (this == #79), line 3:  Type mismatch
-2
-... called from #79:bi_create (this == #79), line 3
-2
-... called from #106:create_session (this == #106), line 4
-2
-... called from #106:initialize_connection (this == #106), line 5
-2
-... called from #106:user_created user_connected user_reconnected (this == #106), line 6
-2
-... called from #0:user_created user_connected (this == #0), line 4
-2
-(End of traceback)
-2
-Input was unknown.
-4
-2
-0
-5
-4
-12
-0
-1507477445
-2
-The System Object (#0)
-2
-Wizard (#2) and Mcp_Owner (#102)
-2
-traceback
-2
-Sender:   Wizard (#2)
-2
-
-2
-#106:create_session (this == #106), line 5:  Resource limit exceeded
-2
-... called from #106:initialize_connection (this == #106), line 5
-2
-... called from #106:user_created user_connected user_reconnected (this == #106), line 6
-2
-... called from #0:user_created user_connected (this == #0), line 4
-2
-(End of traceback)
-2
-Input was unknown.
-4
-2
-0
-6
-4
-12
-0
-1507477507
-2
-The System Object (#0)
-2
-Wizard (#2) and Mcp_Owner (#102)
-2
-traceback
-2
-Sender:   Wizard (#2)
-2
-
-2
-#106:create_session (this == #106), line 5:  Verb not found
-2
-... called from #106:initialize_connection (this == #106), line 5
-2
-... called from #106:user_created user_connected user_reconnected (this == #106), line 6
-2
-... called from #0:user_created user_connected (this == #0), line 4
-2
-(End of traceback)
-2
-Input was unknown.
-4
-2
-0
 7
-4
-14
-0
-1507477528
 2
-The System Object (#0)
+truecolor
 2
-Wizard (#2) and Mcp_Owner (#102)
-2
-traceback
-2
-Sender:   Wizard (#2)
-2
-
-2
-#1:set_name, line 3:  Type mismatch
-2
-... called from #108:set_connection, line 3
-2
-... called from #106:create_session (this == #106), line 8
-2
-... called from #106:initialize_connection (this == #106), line 5
-2
-... called from #106:user_created user_connected user_reconnected (this == #106), line 6
-2
-... called from #0:user_created user_connected (this == #0), line 4
-2
-(End of traceback)
-2
-Input was unknown.
-4
-2
-0
-8
-4
-12
-0
-1507650920
-2
-The System Object (#0)
-2
-Wizard (#2) and Wizard (#2)
-2
-traceback
-2
-Sender:   Wizard (#2)
-2
-
-2
-#-1:Input to EVAL (this == #-1), line 3:  Incorrect number of arguments
-2
-... called from built-in function eval()
-2
-... called from #58:eval_cmd_string, line 19
-2
-... called from #58:eval*-d, line 13
-2
-(End of traceback)
-2
-Input was unknown.
-4
-2
-0
-9
-4
-10
-0
-1507650977
-2
-The System Object (#0)
-2
-Wizard (#2) and Wizard (#2)
-2
-traceback
-2
-Sender:   Wizard (#2)
-2
-
-2
-#21:do_audit do_prospectus (this == #21), line 21:  Type mismatch
-2
-... called from #4:@audit, line 17
-2
-(End of traceback)
-2
-Input was unknown.
-4
-2
-0
-10
-4
-11
-0
-1507651000
-2
-The System Object (#0)
-2
-Wizard (#2) and ??? (#-1)
-2
-traceback
-2
-Sender:   Wizard (#2)
-2
-
-2
-Ident:  Unidentified.
-2
-#42:controls (this == #42), line 3:  Invalid indirection
-2
-... called from #1:recycle, line 1
-2
-(End of traceback)
-2
-Input was unknown.
-4
-2
-0
-11
-4
-11
-0
-1507651000
-2
-The System Object (#0)
-2
-Wizard (#2) and ??? (#-1)
-2
-traceback
-2
-Sender:   Wizard (#2)
-2
-
-2
-Ident:  Unidentified.
-2
-#42:controls (this == #42), line 3:  Invalid indirection
-2
-... called from #1:recycle, line 1
-2
-(End of traceback)
-2
-Input was unknown.
-4
-2
-0
-12
-4
-11
-0
-1507651000
-2
-The System Object (#0)
-2
-Wizard (#2) and ??? (#-1)
-2
-traceback
-2
-Sender:   Wizard (#2)
-2
-
-2
-Ident:  Unidentified.
-2
-#42:controls (this == #42), line 3:  Invalid indirection
-2
-... called from #1:recycle, line 1
-2
-(End of traceback)
-2
-Input was unknown.
-4
-2
-0
-13
-4
-11
-0
-1507651081
-2
-The System Object (#0)
-2
-Wizard (#2) and ??? (#-1)
-2
-traceback
-2
-Sender:   Wizard (#2)
-2
-
-2
-Ident:  Unidentified.
-2
-#42:controls (this == #42), line 3:  Invalid indirection
-2
-... called from #1:recycle, line 1
-2
-(End of traceback)
-2
-Input was unknown.
-4
-2
-0
-14
-4
-11
-0
-1507651420
-2
-The System Object (#0)
-2
-Wizard (#2) and ??? (#-1)
-2
-traceback
-2
-Sender:   Wizard (#2)
-2
-
-2
-Ident:  Unidentified.
-2
-#42:controls (this == #42), line 3:  Invalid indirection
-2
-... called from #1:recycle, line 1
-2
-(End of traceback)
-2
-Input was unknown.
-4
-2
-0
-15
-4
-11
-0
-1507651783
-2
-The System Object (#0)
-2
-Wizard (#2) and ??? (#-1)
-2
-traceback
-2
-Sender:   Wizard (#2)
-2
-
-2
-Ident:  Unidentified.
-2
-#42:controls (this == #42), line 3:  Invalid indirection
-2
-... called from #1:recycle, line 1
-2
-(End of traceback)
-2
-Input was unknown.
-4
-2
-0
-16
-4
-11
-0
-1507651788
-2
-The System Object (#0)
-2
-Wizard (#2) and ??? (#-1)
-2
-traceback
-2
-Sender:   Wizard (#2)
-2
-
-2
-Ident:  Unidentified.
-2
-#42:controls (this == #42), line 3:  Invalid indirection
-2
-... called from #1:recycle, line 1
-2
-(End of traceback)
-2
-Input was unknown.
-4
-2
-0
-17
-4
-11
-0
-1507651867
-2
-The System Object (#0)
-2
-Wizard (#2) and ??? (#-1)
-2
-traceback
-2
-Sender:   Wizard (#2)
-2
-
-2
-Ident:  Unidentified.
-2
-#42:controls (this == #42), line 3:  Invalid indirection
-2
-... called from #1:recycle, line 4
-2
-(End of traceback)
-2
-Input was unknown.
-4
-2
-0
-18
-4
-11
-0
-1507651881
-2
-The System Object (#0)
-2
-Wizard (#2) and ??? (#-1)
-2
-traceback
-2
-Sender:   Wizard (#2)
-2
-
-2
-Ident:  Unidentified.
-2
-#42:controls (this == #42), line 3:  Invalid indirection
-2
-... called from #1:recycle, line 4
-2
-(End of traceback)
-2
-Input was unknown.
-4
-2
-0
-19
-4
-11
-0
-1507652000
-2
-The System Object (#0)
-2
-Wizard (#2) and ??? (#-1)
-2
-traceback
-2
-Sender:   Wizard (#2)
-2
-
-2
-Ident:  Unidentified.
-2
-#42:controls (this == #42), line 3:  Invalid indirection
-2
-... called from #1:recycle, line 4
-2
-(End of traceback)
-2
-Input was unknown.
-4
-2
-0
-20
-4
-11
-0
-1507652109
-2
-The System Object (#0)
-2
-Wizard (#2) and ??? (#-1)
-2
-traceback
-2
-Sender:   Wizard (#2)
-2
-
-2
-Ident:  Unidentified.
-2
-#42:controls (this == #42), line 3:  Invalid indirection
-2
-... called from #1:recycle, line 4
-2
-(End of traceback)
-2
-Input was unknown.
-4
-2
-0
-21
-4
-11
-0
-1507652173
-2
-The System Object (#0)
-2
-Wizard (#2) and ??? (#-1)
-2
-traceback
-2
-Sender:   Wizard (#2)
-2
-
-2
-Ident:  Unidentified.
-2
-#42:controls (this == #42), line 3:  Invalid indirection
-2
-... called from #1:recycle, line 4
-2
-(End of traceback)
-2
-Input was unknown.
-4
-2
-0
-22
-4
-11
-0
-1507652285
-2
-The System Object (#0)
-2
-Wizard (#2) and ??? (#-1)
-2
-traceback
-2
-Sender:   Wizard (#2)
-2
-
-2
-Ident:  Unidentified.
-2
-#42:controls (this == #42), line 3:  Invalid indirection
-2
-... called from #1:recycle, line 4
-2
-(End of traceback)
-2
-Input was unknown.
-4
-2
-0
-23
-4
-11
-0
-1507652365
-2
-The System Object (#0)
-2
-Wizard (#2) and ??? (#-1)
-2
-traceback
-2
-Sender:   Wizard (#2)
-2
-
-2
-Ident:  Unidentified.
-2
-#42:controls (this == #42), line 3:  Invalid indirection
-2
-... called from #1:recycle, line 1
-2
-(End of traceback)
-2
-Input was unknown.
-4
-2
-0
-24
-4
-11
-0
-1507652456
-2
-The System Object (#0)
-2
-Wizard (#2) and ??? (#-1)
-2
-traceback
-2
-Sender:   Wizard (#2)
-2
-
-2
-Ident:  Unidentified.
-2
-#42:controls (this == #42), line 3:  Invalid indirection
-2
-... called from #1:recycle, line 2
-2
-(End of traceback)
-2
-Input was unknown.
-2
-4
-4
-5
+backgrounds
 2
 bold
 2
@@ -2173,7 +1482,7 @@ colors
 97
 1
 4
-20
+29
 2
 bold
 2
@@ -2214,6 +1523,24 @@ blink
 unblink
 2
 beep
+2
+b:black
+2
+b:red
+2
+b:green
+2
+b:yellow
+2
+b:blue
+2
+b:magenta
+2
+b:purple
+2
+b:cyan
+2
+b:white
 97
 1
 4
@@ -2227,7 +1554,7 @@ beep
 4
 2
 0
-1529703960
+1541107430
 2
 10.4.13.2
 2
@@ -2236,7 +1563,7 @@ beep
 2
 0
 0
-1530381568
+1541107458
 2
 1
 0
@@ -2360,7 +1687,7 @@ beep
 2
 0
 2
-port 7777 from 10.4.13.2, port 53342
+port 1234 from 10.4.13.2, port 57783
 2
 0
 5
@@ -2396,7 +1723,7 @@ local
 2
 5
 0
-1530381649
+1541107459
 2
 1
 0
@@ -2467,11 +1794,11 @@ it
 0
 50000
 0
-769998
+852603
 0
 1084848672
 0
-102
+100
 36
 0
 0
@@ -4870,7 +4197,7 @@ Sorry, but there's no help here yet.  Type `?' for a list of commands.
 4
 1
 1
--2
+-5
 2
 5
 4
@@ -4888,7 +4215,37 @@ Sorry, but there's no help here yet.  Type `?' for a list of commands.
 2
 4
 4
-8
+13
+4
+2
+0
+1541106654
+0
+0
+4
+2
+0
+1541106173
+0
+0
+4
+2
+0
+1541105945
+0
+0
+4
+2
+0
+1541105832
+0
+0
+4
+2
+0
+1541092914
+0
+0
 4
 2
 0
@@ -5040,7 +4397,7 @@ For assistance either now or later, type `help'.
 2
 5
 0
-1
+0
 2
 5
 5
@@ -5888,9 +5245,11 @@ Limbo
 1
 -1
 4
-1
+2
 1
 102
+1
+97
 1
 1
 4
@@ -21703,7 +21062,63 @@ emergency
 97
 1
 4
+4
+4
+6
+1
+101
+2
+last_codes
+1
+97
+1
+101
+1
+2
 0
+7
+4
+6
+1
+101
+2
+terminate_normal
+1
+97
+1
+101
+1
+2
+0
+3
+4
+6
+1
+101
+2
+left
+1
+97
+1
+101
+1
+2
+0
+6
+4
+6
+1
+32
+2
+trace
+1
+2
+1
+32
+1
+2
+0
+8
 36
 0
 0
@@ -29206,27 +28621,23 @@ feature_task
 4
 9
 0
-1361278962
+479784355
 2
-@list-packages
+@abort
 4
+0
 2
-2
-with
-2
-$composed
-2
-with $composed
+
 1
 -1
 2
 
 2
-with
+
 1
--3
+-1
 2
-$composed
+
 36
 0
 4
@@ -29885,9 +29296,9 @@ generic programmer
 1
 71
 1
-97
-1
 102
+1
+97
 34
 @prop*erty
 2
@@ -34073,9 +33484,7 @@ lost_souls
 36
 0
 4
-1
-1
-112
+0
 36
 5
 5
@@ -35177,11 +34586,11 @@ cleaning_index
 71
 5
 0
-1481380682
+1407806630
 71
 1
 0
-179507951
+1358556773
 71
 5
 0
@@ -37707,9 +37116,9 @@ Generic Utilities Package
 1
 93
 1
-101
-1
 112
+1
+101
 0
 1
 help_msg
@@ -46395,7 +45804,7 @@ Ansi_Owner
 3
 97
 1
-2
+15
 4
 4
 1
@@ -46506,12 +45915,11 @@ Ansi_Owner
 5
 36
 1
+5
+97
+5
+4
 0
-1511045403
-97
-5
-4
-0
 97
 4
 5
@@ -46532,43 +45940,98 @@ Ansi_Owner
 5
 97
 5
-4
-2
-0
-1
-0
-1507303867
-97
-4
-4
-1
 4
 2
 0
-1
-4
-6
 0
-1507303867
-2
-Wizard (#2)
-2
-*New-Prog-Log (#29) and Ansi_Owner (#97)
-2
-@programmer Ansi_Owner (#97)
-2
-
-2
-I just gave Ansi_Owner a programmer bit.
+0
+0
 97
 4
 5
+97
+4
+4
+7
+2
+truecolor
+2
+backgrounds
+2
+bold
+2
+blinking
+2
+misc
+2
+extra
+2
+colors
 97
 1
 5
 97
 1
-5
+4
+29
+2
+bold
+2
+unbold
+2
+bright
+2
+unbright
+2
+normal
+2
+red
+2
+green
+2
+yellow
+2
+blue
+2
+purple
+2
+cyan
+2
+gray
+2
+grey
+2
+magenta
+2
+white
+2
+underline
+2
+inverse
+2
+blink
+2
+unblink
+2
+beep
+2
+b:black
+2
+b:red
+2
+b:green
+2
+b:yellow
+2
+b:blue
+2
+b:magenta
+2
+b:purple
+2
+b:cyan
+2
+b:white
 97
 1
 5
@@ -46577,7 +46040,7 @@ I just gave Ansi_Owner a programmer bit.
 4
 2
 0
-1507304002
+1541093020
 2
 10.4.13.2
 2
@@ -46586,7 +46049,7 @@ I just gave Ansi_Owner a programmer bit.
 2
 0
 0
-1507304472
+1541108016
 2
 1
 0
@@ -46636,7 +46099,7 @@ I just gave Ansi_Owner a programmer bit.
 2
 0
 2
-port 1111 from 10.4.13.2, port 60160
+port 1234 from 10.4.13.2, port 57756
 2
 0
 5
@@ -46667,11 +46130,11 @@ port 1111 from 10.4.13.2, port 60160
 97
 5
 0
-1507304080
+1541106815
 2
 1
 0
--10000
+-9999
 36
 0
 5
@@ -46742,7 +46205,8 @@ port 1111 from 10.4.13.2, port 60160
 5
 2
 0
-5
+1
+-1
 2
 1
 0
@@ -47076,7 +46540,7 @@ ANSI Help Topics
 97
 1
 4
-63
+71
 2
 You can customize the way the ANSI Player Class works with the @ansi-options
 2
@@ -47107,6 +46571,12 @@ The ansi options available at this time are:
  [bold][green]colors[normal]        This option specifies whether the MOO will display
 2
                color sequences (such as [[null]blue] and [[null]red]).
+2
+
+2
+ [bold][green]backgrounds[normal]   This option specifies whether the MOO will display
+2
+               background color sequences (such as [[null]b:blue] and [[null]b:red]).
 2
 
 2
@@ -47203,10 +46673,20 @@ The ansi options available at this time are:
  [bold][green]no_connect_status[normal] This option specifies whether the ANSI status message
 2
                will be displayed when you log on.
+2
+
+2
+ [bold][green]truecolor[normal]    This option enables 24-bit True Color support. Your client
+2
+              must offer support for it. Because of this, it is not
+2
+              included in the 'all' option.
+2
+              Color sequences are in the form [[red]red[normal]:[green]green[normal]:[blue]blue[normal]]
 97
 1
 4
-37
+46
 2
 The ANSI Player Class works by either translating codes into the ANSI sequences for them, or by stripping them out before sending the rest of the text to the player. An ANSI code is made up of the name of the code with a pair of brackets ([]'s) around it. Note to put codes into the documentation, they had to be put with a [[null]null] in between the letters, so something like [[[null]null]green] had to be written (and to make that.. sigh)
 2
@@ -47216,71 +46696,89 @@ These codes can be used in almost anything. MOOmail, messages, names, descriptio
 2
 
 2
-The codes are seperated into 5 main groups:
+The codes are separated into 6 main groups:
 2
 
 2
- [bold][yellow]colors[normal]     Codes that change the text to another color.  These include:
+ [bold][yellow]colors[normal]         Codes that change the text to another color.  These include:
 2
-            [[null]red], [[null]green], [[null]yellow], [[null]blue], [[null]purple], [[null]cyan],
+                [[null]red], [[null]green], [[null]yellow], [[null]blue], [[null]purple], [[null]cyan],
 2
-            [[null]gray], and [[null]white].  You can also use [[null]magenta] instead
+                [[null]gray], and [[null]white].  You can also use [[null]magenta] instead
 2
-            of [[null]purple] and [[null]grey] instead of [[null]gray] but this isn't
+                of [[null]purple] and [[null]grey] instead of [[null]gray] but this isn't
 2
-            recommended.  NOTE: [[null]gray] implies a [[null]bold] so if you have:
+                recommended.  NOTE: [[null]gray] implies a [[null]bold] so if you have:
 2
-            [[null]gray]This is gray.  [[null]red]This is red.[[null]normal]
+                [[null]gray]This is gray.  [[null]red]This is red.[[null]normal]
 2
-            The 'This is red.' will be bright red, you must put an
+                The 'This is red.' will be bright red, you must put an
 2
-            [[null]unbold] in front of it if you want it to be dark red.
+                [[null]unbold] in front of it if you want it to be dark red.
 2
-            These can be turned off with '@ansi-options -colors'.
+                In addition, if your client supports 24-bit True Color and you've enabled the 'truecolor'
 2
-
+                option, you can create tags from any arbitrary combination of red, green, and blue values.
 2
- [bold][yellow]bold[normal]       Codes that make the text bright or not bright.  These include:
+                e.g. [[null]255:255:153] to create the funky banana color.
 2
-            [[null]bold] and [[null]unbold].  You can also use [[null]bright] and
+                These can be turned off with '@ansi-options -colors' and '@ansi-options -truecolor'
 2
-            [[null]unbright] but, again, this is not recommended.  These can be
+ 
 2
-            turned off with '@ansi-options -bold'.  This can be used to make
+ [bold][yellow]backgrounds[normal]    Codes that change the background of text to another color.
 2
-            bright colors by putting a [[null]bold] in front of the color.
+                The same color codes that can be used for normal colors also apply to background.
 2
-            (for example, in: [[null]green]A[[null]bold]B[[null]red]C[[null]unbold]D[[null]normal]
+                To use backgrounds, simply add "b:" before your color name. For example:
 2
-            the A would be dark green, the B would be bright green, the C
+                [[null]b:red] or [b:255:255:153[null]]
 2
-            would be bright red, and the D would be dark red)
-2
-
-2
- [bold][yellow]blinking[normal]   Codes that turn on and off the blinking.  These include:
-2
-            [[null]blink] and [[null]unblink].  They can be turned off with
-2
-            '@ansi-options -blinking'.
+                Backgrounds can be turned off with '@ansi-options -backgrounds'
 2
 
 2
- [bold][yellow]misc.[normal]      All the codes not covered by the ones above.  These include:
+ [bold][yellow]bold[normal]           Codes that make the text bright or not bright.  These include:
 2
-            [[null]underline] and [[null]inverse].  NOTE: [[null]underline]
+                [[null]bold] and [[null]unbold].  You can also use [[null]bright] and
 2
-            does not actually underline text on most computers.  These can
+                [[null]unbright] but, again, this is not recommended.  These can be
 2
-            be turned off with '@ansi-options -misc'.
+                turned off with '@ansi-options -bold'.  This can be used to make
+2
+                bright colors by putting a [[null]bold] in front of the color.
+2
+                (for example, in: [[null]green]A[[null]bold]B[[null]red]C[[null]unbold]D[[null]normal]
+2
+                the A would be dark green, the B would be bright green, the C
+2
+                would be bright red, and the D would be dark red)
 2
 
 2
- [bold][yellow]extra[normal]      Codes that are not really ANSI and may work even if your
+[bold][yellow]blinking[normal]       Codes that turn on and off the blinking.  These include:
 2
-            terminal is not ANSI compatable .  These include:
+                [[null]blink] and [[null]unblink].  They can be turned off with
 2
-            [[null]beep].  It can be turned off with '@ansi-options -extra'.
+                '@ansi-options -blinking'.
+2
+
+2
+ [bold][yellow]misc.[normal]          All the codes not covered by the ones above.  These include:
+2
+                [[null]underline] and [[null]inverse].  NOTE: [[null]underline]
+2
+                does not actually underline text on most computers.  These can
+2
+                be turned off with '@ansi-options -misc'.
+2
+
+2
+[bold][yellow]extra[normal]          Codes that are not really ANSI and may work even if your
+2
+                terminal is not ANSI compatable .  These include:
+2
+                [[null]beep].  It can be turned off with '@ansi-options -extra'.
 97
 1
 4
@@ -47544,7 +47042,7 @@ $ansi_pc
 2
                     | ANSI System |#                                 S u o
 2
-                    |    v2.2     |#                           N E C e t r
+                    |    v2.4     |#                           N E C e t r
 2
                     +_____________+#                           e n o t l e
 2
@@ -47690,7 +47188,7 @@ parse_escape
 97
 173
 -1
-10
+12
 show_colors
 show_blinking
 show_bold
@@ -47701,7 +47199,9 @@ type_escape
 show_ignore
 show_no_connect_status
 show_extra
-18
+show_backgrounds
+show_truecolor
+20
 4
 2
 2
@@ -47781,7 +47281,23 @@ Send extra non-ANSI codes.
 97
 1
 4
-8
+2
+2
+Strip out background color sequences.
+2
+Translate background color sequences.
+97
+5
+4
+2
+2
+Strip out 24-bit True Color sequences.
+2
+Translate 24-bit True Color sequences.
+2
+1
+4
+10
 2
 colors
 2
@@ -47798,10 +47314,14 @@ ignore
 no_connect_status
 2
 extra
+2
+backgrounds
+2
+truecolor
 36
 1
 2
-!colors!blinking!bold!misc!escape!ignore!no_connect_status!extra!all!none!
+!colors!blinking!bold!misc!escape!ignore!no_connect_status!extra!all!none!backgrounds!truecolor!
 36
 1
 4
@@ -47852,7 +47372,7 @@ ANSI Utilities
 78
 4
 0
-37
+36
 length
 97
 173
@@ -47997,11 +47517,7 @@ last_codes
 97
 173
 -1
-_parse_ansi
-2
-173
--1
-59
+70
 escape
 code_red
 code_green
@@ -48013,9 +47529,19 @@ code_normal
 code_inverse
 code_underline
 code_bold
+code_b:black
+code_b:red
+code_b:green
+code_b:yellow
+code_b:blue
+code_b:magenta
+code_b:purple
+code_b:cyan
+code_b:white
 beep
 code_bright
 group_colors
+group_backgrounds
 group_bold
 code_unbold
 group_misc
@@ -48033,7 +47559,8 @@ group_colors_regexp
 group_bold_regexp
 group_misc_regexp
 group_blinking_regexp
-group_bg_colors_regexp
+group_backgrounds_regexp
+truecolor_regexp
 version
 code_gray
 code_grey
@@ -48061,7 +47588,7 @@ notify_regexp
 reset_guest_props
 ge_fill_string
 plr_db_insert
-64
+75
 2
 
 97
@@ -48107,6 +47634,42 @@ e[1m
 97
 1
 2
+e[40m
+97
+1
+2
+e[41m
+97
+1
+2
+e[42m
+97
+1
+2
+e[43m
+97
+1
+2
+e[44m
+97
+1
+2
+e[45m
+97
+1
+2
+e[45m
+97
+1
+2
+e[46m
+97
+1
+2
+e[47m
+97
+1
+2
 
 97
 0
@@ -48136,6 +47699,28 @@ grey
 magenta
 2
 white
+97
+1
+4
+9
+2
+b:black
+2
+b:red
+2
+b:green
+2
+b:yellow
+2
+b:blue
+2
+b:magenta
+2
+b:purple
+2
+b:cyan
+2
+b:white
 97
 1
 4
@@ -48187,7 +47772,7 @@ e[22m
 97
 1
 4
-5
+6
 2
 bold
 2
@@ -48198,6 +47783,8 @@ misc
 blinking
 2
 extra
+2
+backgrounds
 97
 1
 2
@@ -48209,7 +47796,7 @@ e[37m
 97
 1
 4
-32
+31
 2
 random
 2
@@ -48224,8 +47811,6 @@ unbold
 bright
 2
 unbright
-2
-black
 2
 red
 2
@@ -48247,23 +47832,23 @@ magenta
 2
 white
 2
-bg_black
+b:black
 2
-bg_red
+b:red
 2
-bg_green
+b:green
 2
-bg_yellow
+b:yellow
 2
-bg_blue
+b:blue
 2
-bg_purple
+b:magenta
 2
-bg_cyan
+b:purple
 2
-bg_magenta
+b:cyan
 2
-bg_white
+b:white
 2
 underline
 2
@@ -48277,7 +47862,7 @@ beep
 97
 1
 2
-%[%(random%|normal%|null%|bold%|unbold%|bright%|unbright%|red%|green%|yellow%|blue%|purple%|cyan%|gray%|grey%|magenta%|white%|underline%|inverse%|blink%|unblink%|beep%)%]
+%[%(random%|normal%|null%|bold%|unbold%|bright%|unbright%|red%|green%|yellow%|blue%|purple%|cyan%|gray%|grey%|magenta%|white%|underline%|inverse%|blink%|unblink%|beep%|b:black%|b:red%|b:green%|b:yellow%|b:blue%|b:magenta%|b:purple%|b:cyan%|b:white%|%(.+:%)?%([0-9]+%):%([0-9]+%):%([0-9]+%)%)%]
 97
 1
 2
@@ -48297,11 +47882,15 @@ beep
 97
 1
 2
-%[%(bg_black%|bg_red%|bg_green%|bg_yellow%|bg_blue%|bg_purple%|bg_cyan%|bg_magenta%|bg_white%)%]
+%[%(b:black%|b:red%|b:green%|b:yellow%|b:blue%|b:magenta%|b:purple%|b:cyan%|b:white%)%]
 97
 1
 2
-2.2
+%[%(.+:%)?%([0-9]+%):%([0-9]+%):%([0-9]+%)%]
+97
+1
+2
+2.4
 97
 1
 2
@@ -48313,23 +47902,41 @@ e[1;30m
 97
 1
 4
-20
+29
 2
-Colors - [red]red[normal]           Bold Colors - [bold][red]red[normal]
+Colors        [red]red[normal]          Bold Colors   [bold][red]red[normal]
 2
-         [green]green[normal]                       [bold][green]green[normal]
+              [green]green[normal]                      [bold][green]green[normal]
 2
-         [blue]blue[normal]                        [bold][blue]blue[normal]
+              [blue]blue[normal]                       [bold][blue]blue[normal]
 2
-         [yellow]yellow[normal]                      [bold][yellow]yellow[normal]
+              [yellow]yellow[normal]                     [bold][yellow]yellow[normal]
 2
-         [cyan]cyan[normal]                        [bold][cyan]cyan[normal]
+              [cyan]cyan[normal]                       [bold][cyan]cyan[normal]
 2
-         [purple]purple[normal]                      [bold][purple]purple[normal]
+              [purple]purple[normal]                     [bold][purple]purple[normal]
 2
-         [gray]gray[normal]                        [bold][gray]gray[normal]
+              [gray]gray[normal]                       [bold][gray]gray[normal]
 2
-         [white]white[normal]                       [bold][white]white[normal]
+              [white]white[normal]                      [bold][white]white[normal]
+2
+
+2
+Backgrounds   [b:red][gray]red[normal]          True Color    [128:0:0]maroon[normal]
+2
+              [b:green][gray]green[normal]                      [153:255:180]light green[normal]
+2
+              [b:blue][gray]blue[normal]                       [153:204:255]light blue[normal]
+2
+              [b:yellow][gray]yellow[normal]                     [255:255:153]funky banana[normal]
+2
+              [b:cyan][gray]cyan[normal]                       [0:102:102]dark cyan[normal]
+2
+              [b:purple][gray]purple[normal]                     [255:204:242]light purple[normal]
+2
+              [b:white][gray]white[normal]                      [170:121:65]brown[normal]
+2
+              [b:black][white]black[normal]
 2
 
 2
@@ -48337,7 +47944,7 @@ Blinking  - [blink]This text should be blinking.  [unblink]This shouldn't.[norma
 2
 
 2
-Bold      - [bold]This text should be bold.  [unbold]This shouldn't.[normal]
+Bold      - [bold][cyan]This text should be bold.  [unbold][cyan]This shouldn't.[normal]
 2
 
 2
@@ -48391,7 +47998,45 @@ white
 97
 1
 4
-14
+17
+4
+4
+2
+2.4
+0
+1540863892
+2
+[bold][yellow]l[normal][yellow]i[green]s[bold]d[red]u[normal][red]d[purple]e[normal]
+4
+1
+2
+Added support for true color (24-bit) terminals. Tags are in the form: [red:green:blue]
+4
+4
+2
+2.3
+0
+1112950415
+2
+[bold][yellow]l[normal][yellow]i[green]s[bold]d[red]u[normal][red]d[purple]e[normal]
+4
+2
+2
+Added Remco de Groot's 2.2 change to the ANSI log and added support for background colors. Tags for background colors take the form: [b:color]
+2
+Also updated @ansi-setup to recognize and use FileIO if it's available.
+4
+4
+2
+2.2
+0
+820519200
+2
+Remco de Groot
+4
+1
+2
+Fixed a bug in the setup script where it referenced $player rather than player.
 4
 4
 2
@@ -48541,43 +48186,11 @@ First version, added $emu and hacked $player:notify to call it.
 97
 1
 4
-18
+2
 0
-151537710
+723743973
 0
-480060439
-0
-1354754682
-0
-227809902
-0
-1075039780
-0
-1992104074
-0
-1005371250
-0
-1565272496
-0
-792108937
-0
-1016307671
-0
-1897093026
-0
-506016403
-0
-1480597586
-0
-532561455
-0
-1738497607
-0
-925981409
-0
-1540183176
-0
-1917395305
+185834891
 97
 1
 4
@@ -48659,7 +48272,7 @@ endif
 97
 1
 4
-5
+4
 2
 null
 2
@@ -48668,8 +48281,6 @@ unbold
 unblink
 2
 unbright
-2
-normal
 97
 1
 2
@@ -48691,13 +48302,13 @@ beep
 97
 1
 2
-%[%(random%|normal%|bold%|bright%|unbright%|red%|green%|yellow%|blue%|purple%|cyan%|gray%|grey%|magenta%|underline%|inverse%|blink%)%]
+%[%(random%|normal%|bold%|bright%|unbright%|red%|green%|yellow%|blue%|purple%|cyan%|gray%|grey%|magenta%|underline%|inverse%|blink%|b:black%|b:red%|b:green%|b:yellow%|b:blue%|b:magenta%|b:purple%|b:cyan%|b:white%|%(.+:%)?%([0-9]+%):%([0-9]+%):%([0-9]+%)%)%]
 97
-1
+5
 4
 1
 4
-18
+27
 2
 bold
 2
@@ -48729,6 +48340,24 @@ magenta
 2
 white
 2
+b:black
+2
+b:red
+2
+b:green
+2
+b:yellow
+2
+b:blue
+2
+b:magenta
+2
+b:purple
+2
+b:cyan
+2
+b:white
+2
 underline
 2
 inverse
@@ -48737,9 +48366,9 @@ beep
 97
 1
 2
-%[%(random%|normal%|bold%|unbold%|bright%|unbright%|black%|red%|green%|yellow%|blue%|purple%|cyan%|gray%|grey%|magenta%|white%|bg_black%|bg_red%|bg_green%|bg_yellow%|bg_blue%|bg_purple%|bg_cyan%|bg_magenta%|bg_white%|underline%|inverse%|blink%|unblink%|beep%)%]
+%[%(random%|normal%|bold%|unbold%|bright%|unbright%|red%|green%|yellow%|blue%|purple%|cyan%|gray%|grey%|magenta%|white%|underline%|inverse%|blink%|unblink%|beep%|b:black%|b:red%|b:green%|b:yellow%|b:blue%|b:magenta%|b:purple%|b:cyan%|b:white%)%]
 97
-1
+5
 4
 2
 2
@@ -49198,67 +48827,13 @@ Sender:   Wizard (#2)
 Input was unknown.
 102
 4
-4
-6
-2
-all
-2
-bold
-2
-blinking
-2
-misc
-2
-extra
-2
-colors
+5
 97
 1
 5
 97
 1
-4
-20
-2
-bold
-2
-unbold
-2
-bright
-2
-unbright
-2
-normal
-2
-red
-2
-green
-2
-yellow
-2
-blue
-2
-purple
-2
-cyan
-2
-gray
-2
-grey
-2
-magenta
-2
-white
-2
-underline
-2
-inverse
-2
-blink
-2
-unblink
-2
-beep
+5
 97
 1
 5
@@ -50364,7 +49939,7 @@ Compiler Utilities
 78
 4
 0
-5
+9
 unpack_verb_code
 36
 173
@@ -50383,6 +49958,22 @@ parse_content_type
 -1
 generate_content_type
 36
+173
+-1
+set_verb_doc
+2
+173
+-1
+verb_doc
+2
+173
+-1
+validate_doc_format _validate_doc_format
+36
+173
+-1
+verb_detail
+2
 173
 -1
 1
@@ -50644,11 +50235,1651 @@ archive_sources
 36
 0
 0
-1529767110
+1530436881
 36
 0
 10
+28
+2
+alt
+10
+3
+2
+0.0.1
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/alt/0.0.1.json
+2
+requires
+4
+1
+4
+2
+2
+kernel
+2
+>= 1.0.4
+2
+0.0.2
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/alt/0.0.2.json
+2
+requires
+4
+3
+4
+2
+2
+kernel
+2
+>= 1.0.4
+4
+2
+2
+primitive
+2
+>= 0.0.2
+4
+2
+2
+text_tools
+2
+>= 0.0.1
+2
+0.0.4
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/alt/0.0.4.json
+2
+requires
+4
+6
+4
+2
+2
+kernel
+2
+>= 1.0.4
+4
+2
+2
+primitive
+2
+>= 0.0.2
+4
+2
+2
+core
+2
+>= 0.0.1
+4
+2
+2
+text_tools
+2
+>= 0.0.1
+4
+2
+2
+blink
+2
+>= 0.0.0
+4
+2
+2
+plastic
+2
+= 1.0
+2
+ask
+10
+2
+2
+0.0.1
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/ask/0.0.1.json
+2
+requires
+4
+2
+4
+1
+2
+kernel
+4
+2
+2
+primitive
+2
+>= 0.0.2
+2
+0.0.2
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/ask/0.0.2.json
+2
+requires
+4
+2
+4
+1
+2
+kernel
+4
+2
+2
+primitive
+2
+>= 0.0.2
+2
+ask_tests
+10
+1
+2
+0.0.1
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/ask_tests/0.0.1.json
+2
+requires
+4
+3
+4
+1
+2
+kernel
+4
+2
+2
+unit
+2
+>= 1.0.5
+4
+2
+2
+ask
+2
+>= 0.0.1
+2
+autoport
+10
+3
+2
+0.0.1
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/autoport/0.0.1.json
+2
+requires
+4
+1
+4
+1
+2
+lambdacore
+2
+0.0.2
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/autoport/0.0.2.json
+2
+requires
+4
+1
+4
+1
+2
+lambdacore
+2
+0.0.3
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/autoport/0.0.3.json
+2
+requires
+4
+1
+4
+1
+2
+lambdacore
+2
+blink
+10
+1
+2
+0.0.1
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/blink/0.0.1.json
+2
+requires
+4
+4
+4
+2
+2
+kernel
+2
+>= 1.1.5
+4
+2
+2
+primitive
+2
+>= 0.0.5
+4
+2
+2
+core
+2
+>= 0.0.2
+4
+2
+2
+plastic
+2
+= 1.0
+2
+checkpointer
+10
+5
+2
+0.0.1
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/checkpointer/0.0.1.json
+2
+requires
+4
+1
+4
+1
+2
+lambdacore
+2
+0.0.2
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/checkpointer/0.0.2.json
+2
+requires
+4
+1
+4
+1
+2
+lambdacore
+2
+0.0.3
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/checkpointer/0.0.3.json
+2
+requires
+4
+1
+4
+1
+2
+lambdacore
+2
+0.0.4
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/checkpointer/0.0.4.json
+2
+requires
+4
+1
+4
+1
+2
+lambdacore
+2
+0.0.5
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/checkpointer/0.0.5.json
+2
+requires
+4
+1
+4
+1
+2
+lambdacore
+2
+core
+10
+2
+2
+0.0.2
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/core/0.0.2.json
+2
+requires
+4
+1
+4
+2
+2
+kernel
+2
+>= 1.1.3
+2
+0.0.4
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/core/0.0.4.json
+2
+requires
+4
+1
+4
+2
+2
+kernel
+2
+>= 1.1.3
+2
+dialog
+10
+5
+2
+0.0.1
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/dialog/0.0.1.json
+2
+requires
+4
+2
+4
+2
+2
+kernel
+2
+>= 1.0.6
+4
+2
+2
+primitive
+2
+>= 0.0.2
+2
+0.0.3
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/dialog/0.0.3.json
+2
+requires
+4
+2
+4
+2
+2
+kernel
+2
+>= 1.0.6
+4
+2
+2
+primitive
+2
+>= 0.0.2
+2
+0.0.4
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/dialog/0.0.4.json
+2
+requires
+4
+2
+4
+2
+2
+kernel
+2
+>= 1.0.6
+4
+2
+2
+primitive
+2
+>= 0.0.2
+2
+0.0.5
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/dialog/0.0.5.json
+2
+requires
+4
+2
+4
+2
+2
+kernel
+2
+>= 1.0.6
+4
+2
+2
+primitive
+2
+>= 0.0.2
+2
+0.1.2
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/dialog/0.1.2.json
+2
+requires
+4
+4
+4
+2
+2
+kernel
+2
+>= 1.0.6
+4
+2
+2
+primitive
+2
+>= 0.0.4
+4
+2
+2
+core
+2
+>= 0.0.2
+4
+2
+2
+plastic
+2
+= 1.0
+2
+dialog_extras
+10
+5
+2
+0.0.1
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/dialog_extras/0.0.1.json
+2
+requires
+4
+3
+4
+2
+2
+kernel
+2
+>= 1.0.7
+4
+2
+2
+primitive
+2
+>= 0.0.2
+4
+2
+2
+dialog
+2
+>= 0.0.1
+2
+0.0.2
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/dialog_extras/0.0.2.json
+2
+requires
+4
+3
+4
+2
+2
+kernel
+2
+>= 1.0.7
+4
+2
+2
+primitive
+2
+>= 0.0.2
+4
+2
+2
+dialog
+2
+>= 0.0.2
+2
+0.0.3
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/dialog_extras/0.0.3.json
+2
+requires
+4
+3
+4
+2
+2
+kernel
+2
+>= 1.0.7
+4
+2
+2
+primitive
+2
+>= 0.0.2
+4
+2
+2
+dialog
+2
+>= 0.0.2
+2
+0.0.4
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/dialog_extras/0.0.4.json
+2
+requires
+4
+3
+4
+2
+2
+kernel
+2
+>= 1.0.7
+4
+2
+2
+primitive
+2
+>= 0.0.2
+4
+2
+2
+dialog
+2
+>= 0.0.2
+2
+0.0.7
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/dialog_extras/0.0.7.json
+2
+requires
+4
+5
+4
+2
+2
+kernel
+2
+>= 1.0.7
+4
+2
+2
+primitive
+2
+>= 0.0.6
+4
+2
+2
+core
+2
+>= 0.0.2
+4
+2
+2
+dialog
+2
+>= 0.0.2
+4
+2
+2
+plastic
+2
+= 1.0
+2
+identity
+10
+3
+2
+0.0.1
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/identity/0.0.1.json
+2
+requires
+4
+1
+4
+2
+2
+kernel
+2
+>= 1.0.4
+2
+0.0.2
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/identity/0.0.2.json
+2
+requires
+4
+1
+4
+2
+2
+kernel
+2
+>= 1.0.4
+2
+0.0.3
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/identity/0.0.3.json
+2
+requires
+4
+1
+4
+2
+2
+kernel
+2
+>= 1.0.4
+2
+kernel
+10
+7
+2
+1.0.4
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/kernel/1.0.4.json
+2
+requires
+4
 0
+2
+1.0.5
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/kernel/1.0.5.json
+2
+requires
+4
+0
+2
+1.0.6
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/kernel/1.0.6.json
+2
+requires
+4
+0
+2
+1.0.7
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/kernel/1.0.7.json
+2
+requires
+4
+0
+2
+1.0.8
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/kernel/1.0.8.json
+2
+requires
+4
+0
+2
+1.1.4
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/kernel/1.1.4.json
+2
+requires
+4
+0
+2
+1.1.5
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/kernel/1.1.5.json
+2
+requires
+4
+0
+2
+kernel_tests
+10
+2
+2
+1.0.10
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/kernel_tests/1.0.10.json
+2
+requires
+4
+2
+4
+2
+2
+unit
+2
+>= 1
+4
+2
+2
+kernel
+2
+1.0
+2
+1.0.9
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/kernel_tests/1.0.9.json
+2
+requires
+4
+3
+4
+2
+2
+unit
+2
+>= 1
+4
+2
+2
+core
+2
+1.0
+4
+2
+2
+kernel
+2
+1.0
+2
+lambdacore
+10
+1
+2
+0.0.5
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/lambdacore/0.0.5.json
+2
+requires
+4
+0
+2
+martian
+10
+1
+2
+0.0.1
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/martian/0.0.1.json
+2
+requires
+4
+1
+4
+1
+2
+lambdacore
+2
+mettle
+10
+2
+2
+0.0.1
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/mettle/0.0.1.json
+2
+requires
+4
+0
+2
+0.0.2
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/mettle/0.0.2.json
+2
+requires
+4
+0
+2
+mettle_tests
+10
+2
+2
+0.0.1
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/mettle_tests/0.0.1.json
+2
+requires
+4
+1
+4
+2
+2
+mettle
+2
+0.0.1
+2
+0.0.2
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/mettle_tests/0.0.2.json
+2
+requires
+4
+1
+4
+2
+2
+mettle
+2
+0.0.2
+2
+model
+10
+1
+2
+0.0.1
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/model/0.0.1.json
+2
+requires
+4
+2
+4
+1
+2
+kernel
+4
+2
+2
+ask
+2
+>= 0.0.1
+2
+model_tests
+10
+1
+2
+0.0.1
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/model_tests/0.0.1.json
+2
+requires
+4
+3
+4
+1
+2
+kernel
+4
+2
+2
+unit
+2
+>= 1.0.5
+4
+2
+2
+model
+2
+>= 0.0.1
+2
+mustache
+10
+3
+2
+0.0.1
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/mustache/0.0.1.json
+2
+requires
+4
+2
+4
+2
+2
+kernel
+2
+>= 1.0.6
+4
+2
+2
+primitive
+2
+>= 0.0.2
+2
+1.0.0
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/mustache/1.0.0.json
+2
+requires
+4
+2
+4
+2
+2
+kernel
+2
+>= 1.0.6
+4
+2
+2
+primitive
+2
+>= 0.0.2
+2
+1.0.1
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/mustache/1.0.1.json
+2
+requires
+4
+2
+4
+2
+2
+kernel
+2
+>= 1.1.1
+4
+2
+2
+primitive
+2
+>= 0.0.2
+2
+mustache_tests
+10
+3
+2
+0.0.1
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/mustache_tests/0.0.1.json
+2
+requires
+4
+4
+4
+1
+2
+kernel
+4
+1
+2
+core
+4
+2
+2
+unit
+2
+= 1
+4
+2
+2
+mustache
+2
+= 0
+2
+1.0.0
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/mustache_tests/1.0.0.json
+2
+requires
+4
+3
+4
+1
+2
+kernel
+4
+2
+2
+unit
+2
+= 1
+4
+2
+2
+mustache
+2
+= 1
+2
+1.0.1
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/mustache_tests/1.0.1.json
+2
+requires
+4
+3
+4
+1
+2
+kernel
+4
+2
+2
+unit
+2
+= 1
+4
+2
+2
+mustache
+2
+= 1
+2
+mysqlfrob
+10
+1
+2
+0.0.1
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/mysqlfrob/0.0.1.json
+2
+requires
+4
+2
+4
+2
+2
+kernel
+2
+1
+4
+2
+2
+primitive
+2
+>= 0.0.2
+2
+persistent
+10
+2
+2
+0.0.1
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/persistent/0.0.1.json
+2
+requires
+4
+1
+4
+2
+2
+kernel
+2
+>= 1.0.6
+2
+0.0.2
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/persistent/0.0.2.json
+2
+requires
+4
+1
+4
+2
+2
+kernel
+2
+>= 1.0.6
+2
+plastic
+10
+3
+2
+0.0.0
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/plastic/0.0.0.json
+2
+requires
+4
+2
+4
+2
+2
+kernel
+2
+>= 1.0.7
+4
+2
+2
+primitive
+2
+>= 0.0.2
+2
+0.0.3
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/plastic/0.0.3.json
+2
+requires
+4
+3
+4
+2
+2
+kernel
+2
+>= 1.1.1
+4
+2
+2
+core
+2
+>= 0.0.1
+4
+2
+2
+primitive
+2
+>= 0.0.2
+2
+1.0.1
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/plastic/1.0.1.json
+2
+requires
+4
+3
+4
+2
+2
+kernel
+2
+>= 1.1.1
+4
+2
+2
+core
+2
+>= 0.0.1
+4
+2
+2
+primitive
+2
+>= 0.0.6
+2
+primitive
+10
+4
+2
+0.0.1
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/primitive/0.0.1.json
+2
+requires
+4
+1
+4
+2
+2
+kernel
+2
+>= 1.0.4
+2
+0.0.2
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/primitive/0.0.2.json
+2
+requires
+4
+1
+4
+2
+2
+kernel
+2
+>= 1.0.4
+2
+0.0.4
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/primitive/0.0.4.json
+2
+requires
+4
+1
+4
+2
+2
+kernel
+2
+>= 1.0.4
+2
+0.0.6
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/primitive/0.0.6.json
+2
+requires
+4
+1
+4
+2
+2
+kernel
+2
+>= 1.0.4
+2
+primitive_tests
+10
+2
+2
+0.0.1
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/primitive_tests/0.0.1.json
+2
+requires
+4
+4
+4
+2
+2
+kernel
+2
+>= 1.0.4
+4
+2
+2
+core
+2
+>= 1.0.5
+4
+2
+2
+primitive
+2
+>= 0.0.1
+4
+2
+2
+unit
+2
+>= 1.0.3
+2
+0.0.2
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/primitive_tests/0.0.2.json
+2
+requires
+4
+4
+4
+2
+2
+kernel
+2
+>= 1.0.4
+4
+2
+2
+core
+2
+>= 1.0.5
+4
+2
+2
+primitive
+2
+>= 0.0.1
+4
+2
+2
+unit
+2
+>= 1.0.3
+2
+text_tools
+10
+1
+2
+0.0.1
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/text_tools/0.0.1.json
+2
+requires
+4
+2
+4
+1
+2
+kernel
+4
+2
+2
+primitive
+2
+>= 0.0.2
+2
+text_tools_tests
+10
+1
+2
+0.0.1
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/text_tools_tests/0.0.1.json
+2
+requires
+4
+3
+4
+2
+2
+kernel
+2
+>= 1.1.0
+4
+2
+2
+unit
+2
+>= 1.0.4
+4
+2
+2
+text_tools
+2
+>= 0.0.1
+2
+unit
+10
+2
+2
+1.0.4
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/unit/1.0.4.json
+2
+requires
+4
+2
+4
+1
+2
+kernel
+4
+1
+2
+core
+2
+1.0.5
+10
+2
+2
+href
+2
+http://stunt.io:80/packages/unit/1.0.5.json
+2
+requires
+4
+1
+4
+1
+2
+kernel
 36
 0
 10
@@ -50675,9 +51906,9 @@ http://stunt.io/v2/packages.json
 4
 2
 0
+57629
 0
-0
-0
+1530436844
 36
 1
 #114
@@ -50801,9 +52032,9 @@ add_verb_definition
 4
 2
 0
+24976
 0
-0
-0
+1530436844
 36
 1
 6
@@ -50844,7 +52075,7 @@ session for #2
 102
 1
 2
-VdweSc
+r`9btG
 102
 0
 0
@@ -51294,7 +52525,7 @@ mcp-negotiate-end
 36
 1
 0
-1889
+1892
 #0:0
 "...This code should only be run as a server task...";
 if (callers())
@@ -51613,7 +52844,9 @@ retval = E_PERM;
 elseif ((typeof(i) != LIST) || (typeof(no = i[1]) != OBJ))
 "info is malformed";
 retval = E_TYPE;
-elseif ((!valid(no)) || (!is_player(no)))
+"elseif (!valid(no) || !is_player(no))";
+"Composed relies on verbs/properties being owned by non-players";
+elseif (!valid(no))
 "invalid new verb owner";
 retval = E_INVARG;
 elseif (!$perm_utils:controls(cp, no))
@@ -51896,15 +53129,14 @@ endif
 if ((raw && code) && (code[$] == "\"-=-=-mxyzptlk-=-=-\";"))
 return {"Illegal use of marker"};
 elseif (content_type)
-#111:tell(toliteral(content_type));
 source = code;
 "parse the content type to validate it, then generate it in canonical form";
 {type, attributes} = $compiler_utils:parse_content_type(content_type);
 content_type = $compiler_utils:generate_content_type({type, attributes});
-"natively supported... no external compilation necessary";
 if ((type == "application/x-moocode") && (!attributes))
-"find an external compiler and compile";
+"natively supported... no external compilation necessary";
 elseif (`valid(compiler = $compiler_utils:match_external_compiler(type, attributes)) ! ANY')
+"find an external compiler and compile";
 {status, code} = compiler:compile(code, attributes);
 if (!status)
 return code;
@@ -85532,9 +86764,9 @@ return help;
 .
 #100:0
 if (args[1] == "all")
-return {{"colors", a = args[2]}, {"extra", a}, {"misc", a}, {"blinking", a}, {"bold", a}};
+return {{"colors", a = args[2]}, {"extra", a}, {"misc", a}, {"blinking", a}, {"bold", a}, {"backgrounds", a}, {"truecolor", a}};
 elseif (args[1] == "none")
-return {{"colors", a = !args[2]}, {"extra", a}, {"misc", a}, {"blinking", a}, {"bold", a}};
+return {{"colors", a = !args[2]}, {"extra", a}, {"misc", a}, {"blinking", a}, {"bold", a}, {"backgrounds", a}, {"truecolor", a}};
 else
 return {args};
 endif
@@ -85569,36 +86801,14 @@ return !(!match(args[1], this.all_regexp));
 .
 #101:3
 ":delete (STR string) => STR <string> with ANSI codes stripped out";
-if (!this.active)
-return args[1];
-elseif (`function_info("remove_ansi") ! E_INVARG => 0')
-line = (typeof(args[1]) == LIST) ? args[1] | {args[1]};
-regexp = "%[%(exit%|noexit%)%]";
-regexp_links = "%@%[.*:.*%]%(.*%)%@%[/%]";
-for n in [1..length(line)]
-while (index = match(line[n], regexp))
-line[n][index[1]..index[2]] = "[null]";
+line = args[1];
+if (this.active)
+while (index = match(line, this.notify_regexp) || (index = match(line, this.truecolor_regexp)))
+line[index[1]..index[2]] = "";
 endwhile
-while (index = match(line[n], regexp_links))
-line[n][index[1]..index[2]] = line[n][index[3][1][1]..index[3][1][2]];
-endwhile
-line[n] = call_function("remove_ansi", line[n]);
-endfor
-else
-line = (typeof(args[1]) == LIST) ? args[1] | {args[1]};
-regexp = strsub(this.notify_regexp, "%)", "%|exit%|noexit%)");
-regexp_links = "%@%[.*:.*%]%(.*%)%@%[/%]";
-for n in [1..length(line)]
-while (index = match(line[n], regexp))
-line[n][index[1]..index[2]] = "[null]";
-endwhile
-while (index = match(line[n], regexp_links))
-line[n][index[1]..index[2]] = line[n][index[3][1][1]..index[3][1][2]];
-endwhile
-line[n] = strsub(line[n], "[null]", "");
-endfor
+line = strsub(line, "[null]", "");
 endif
-return (typeof(args[1]) == LIST) ? line | line[1];
+return line;
 .
 #101:4
 if (!this:trusts(caller_perms()))
@@ -85611,8 +86821,8 @@ this.(tostr("group_", x, "_regexp")) = tostr("%[%(", $string_utils:from_list(g =
 codes = {@codes, @g};
 endfor
 this.all = codes;
-this.all_regexp = tostr("%[%(", $string_utils:from_list(codes, "%|"), "%)%]");
-this.terminate_regexp = tostr("%[%(", $string_utils:from_list($set_utils:difference(codes, {@this.default_codes, @this.group_extra}), "%|"), "%)%]");
+this.all_regexp = tostr("%[%(", $string_utils:from_list(codes, "%|"), "%|", this.truecolor_regexp[3..$ - 2], "%)%]");
+this.terminate_regexp = tostr("%[%(", $string_utils:from_list($set_utils:difference(codes, {@this.default_codes, @this.group_extra}), "%|"), "%|", this.truecolor_regexp[3..$ - 2], "%)%]");
 this.notify_regexp = tostr("%[%(", $string_utils:from_list(setremove(codes, "null"), "%|"), "%)%]");
 colors = {};
 ccs = {};
@@ -85648,7 +86858,16 @@ endif
 endwhile
 .
 #101:5
-return (caller == this) ? strsub(strsub(this.("code_" + args[1]), "e", args[2] || this.escape, 1), "b", this.beep) | E_PERM;
+if (caller != this)
+return E_PERM;
+endif
+{code, escape_char, ?truecolor_match = 0} = args;
+if (truecolor_match)
+ret = substitute(escape_char || (this.escape + (index(code, "b:") ? "[48;2;%2;%3;%4m" | "[38;2;%2;%3;%4m")), truecolor_match);
+return ret;
+else
+return strsub(strsub(this.("code_" + code), "e", escape_char || this.escape, 1), "b", this.beep);
+endif
 .
 #101:6
 ":cutoff[_suspended] (STR string, NUM start, NUM end) => STR";
@@ -85799,7 +87018,7 @@ endif
 endif
 tell1 = l[1];
 for j in [2..4]
-tell1 = this:left(tell1, before[j]) + l[j];
+tell1 = su:left(tell1, before[j]) + l[j];
 endfor
 listing = {@listing, this:cutoff(tell1, 1, min(this:length(tell1), total_width))};
 if ($command_utils:running_out_of_time())
@@ -85841,17 +87060,17 @@ return total;
 .
 #101:10
 ":notify (OBJ player, STR line[, extra parameters for notify])";
-{plr, line} = args;
-"vmoo_exits = $client:vmoo_links(plr);";
+{plr, line, @extra} = args;
+vmoo_exits = `$client:vmoo_links(plr) ! E_INVIND, E_VERBNF, E_PROPNF => 0';
 set_task_perms(caller_perms());
-"...use property_info() instead of isa to save ticks...";
+"...use property_info() instead of $object_utils:isa to save ticks...";
 if (((((index(line, "[") && valid(plr)) && property_info(plr, "ansi_options")) && this.active) && (!(task_id() in this.noansi_queue))) && (!plr:ansi_option("ignore")))
-if (0 && vmoo_exits)
+if (vmoo_exits)
 while ((i = index(line, "[exit]")) && (e = index(line[i + 6..$], "[noexit]")))
 line[i..(i + e) + 12] = tostr("@[" + "exit:", link = line[i + 6..(i + e) + 4], "]", link, "@[/]");
 endwhile
 else
-"Prolly one of {WinMOOSE, Telnet, TinyFugue}";
+"Probably one of {WinMOOSE, Telnet, TinyFugue}";
 line = strsub(strsub(line, "[exit]", "[null]"), "[noexit]", "[null]");
 endif
 "Fix [beep] for VMoo...";
@@ -85894,13 +87113,26 @@ endif
 line[index..index + 6] = "[gray]";
 endwhile
 endif
-line = this:terminate_normal(line);
-line = this:_parse_ansi(line);
+"Parse colors";
+codes = (typeof(z = plr.replace_codes) == NUM) ? this.replace_code_pointers[z] | z;
+esc = plr:ansi_option("escape");
+truecolor_enabled = plr:ansi_option("truecolor");
+while (m = match(line, this.notify_regexp))
+z = line[m[1] + 1..m[2] - 1];
+(z == "random") && (z = this.random_colors[random(length(this.random_colors))]);
+line[m[1]..m[2]] = (z in codes) ? this:get_code(z, esc) | "";
+endwhile
+"...breaking truecolor out of the notify regexp is a performance win for reasons I don't remember anymore...";
+while (m = match(line, this.truecolor_regexp))
+z = line[m[1] + 1..m[2] - 1];
+line[m[1]..m[2]] = truecolor_enabled ? this:get_code(z, esc, m) | "";
+endwhile
+line = strsub(line, "[null]", "");
 else
 line = this:delete(line);
 endif
 endif
-return notify(plr, line, @args[3..length(args)]);
+return notify(plr, line, @extra);
 .
 #101:11
 ":add_noansi()";
@@ -86007,6 +87239,9 @@ seconds = seconds_left();
 for x in [1..3]
 $ansi_utils:notify(new, "[blue]B[bold]e[unbold]n[bold]c[unbold]h[bold]m[unbold]a[bold]r[unbold]k [red]T[bold]e[unbold]s[bold]t [random].[random].[random].[random].[random].");
 endfor
+for x in [1..3]
+$ansi_utils:notify(new, "[123:123:123]B[1:1:1]e[0:100:0]n[100:0:100]c[100:100:100]h[100:0:0]m[0:0:100]a[255:0:255]r[255:0:0]k [0:255:0]T[0:0:255]e[255:255:0]s[123:45:6]t.");
+endfor
 ticks = ticks - ticks_left();
 seconds = seconds - seconds_left();
 new:set_ansi_option("colors", 1);
@@ -86018,17 +87253,23 @@ for x in [1..3]
 $ansi_utils:notify(new, "[blue]B[bold]e[unbold]n[bold]c[unbold]h[bold]m[unbold]a[bold]r[unbold]k [red]T[bold]e[unbold]s[bold]t [random].[random].[random].[random].[random].");
 endfor
 for x in [1..3]
+$ansi_utils:notify(new, "[123:123:123]B[1:1:1]e[0:100:0]n[100:0:100]c[100:100:100]h[100:0:0]m[0:0:100]a[255:0:255]r[255:0:0]k [0:255:0]T[0:0:255]e[255:255:0]s[123:45:6]t.");
+endfor
+for x in [1..3]
 $ansi_utils:notify(new, "Testing...");
 endfor
 this:add_noansi();
 for x in [1..3]
 $ansi_utils:notify(new, "[blue]B[bold]e[unbold]n[bold]c[unbold]h[bold]m[unbold]a[bold]r[unbold]k [red]T[bold]e[unbold]s[bold]t [random].[random].[random].[random].[random].");
 endfor
+for x in [1..3]
+$ansi_utils:notify(new, "[123:123:123]B[1:1:1]e[0:100:0]n[100:0:100]c[100:100:100]h[100:0:0]m[0:0:100]a[255:0:255]r[255:0:0]k [0:255:0]T[0:0:255]e[255:255:0]s[123:45:6]t.");
+endfor
 this:remove_noansi();
 ticks = ticks - ticks_left();
 seconds = seconds - seconds_left();
 $recycler:_recycle(new);
-player:tell("12 notifies: ", ticks, " tick", (ticks == 1) ? "" | "s", ", ", seconds, " second", (seconds == 1) ? "" | "s", ".");
+player:tell("21 notifies: ", ticks, " tick", (ticks == 1) ? "" | "s", ", ", seconds, " second", (seconds == 1) ? "" | "s", ".");
 endif
 .
 #101:19
@@ -86308,7 +87549,7 @@ objects = setadd(objects, o);
 endif
 endfor
 if (!objects)
-return player:notify(tostr("Unable to find $", prop, ", please port this object and set #0.", prop, " to it's object number."));
+return player:notify(tostr("Unable to find $", prop, ", please port this object and set #0.", prop, " to it's object number. If you created a new player to own ANSI objects, you might want to temporarily set your .public_identity property to that player and rerun this verb. Remember to reset the property when you're done."));
 elseif (length(objects) == 1)
 player:notify(tostr("Setting $", prop, " to ", $string_utils:nn(objects[1]), "."));
 $sysobj.(prop) = objects[1];
@@ -86420,7 +87661,7 @@ endif
 if (verb_code($generic_editor, "fill_string") != this.ge_fill_string)
 a = "";
 while ($object_utils:has_verb($generic_editor, vname = tostr("fill_string(noansi", a, ")")))
-a = tonum(a) + 1;
+a = toint(a) + 1;
 endwhile
 set_verb_info($generic_editor, "fill_string", listset(verb_info($generic_editor, "fill_string"), vname, 3));
 add_verb($generic_editor, {player, "rx", "fill_string"}, {"this", "none", "this"}) || player:notify("Adding new $generic_editor:fill_string...");
@@ -86434,20 +87675,29 @@ chr = x[1];
 code = x[2];
 octal = x[3];
 if ((typeof(this.(chr)) != STR) || (length(this.(chr)) != 1))
-if (eval(";return ascii(64);")[1])
-player:notify(tostr("Setting $ansi_utils.", chr, " with ascii()..."));
-eval(tostr(";$ansi_utils.(\"", chr, "\")=ascii(", code, ");"));
-elseif ((eval = eval(";return filelist(\"\", \"\");"))[1])
-if ((chr + ".chr") in eval[2][1])
-player:notify(tostr("Setting $ansi_utils.", chr, " with FUP from file ", chr, ".chr..."));
+if (eval(";return chr(64);")[1])
+player:notify(tostr("Setting $ansi_utils.", chr, " with chr()..."));
+eval(tostr(";$ansi_utils.(\"", chr, "\")=chr(", code, ");"));
+elseif ((eval = eval(";return filelist(\"\", \"\");"))[1] || (eval = eval(";return file_list(\"\");"))[1])
+files = (typeof(eval[2][1]) == LIST) ? eval[2][1] | eval[2];
+if ((chr + ".chr") in files)
+player:notify(tostr("Setting $ansi_utils.", chr, " from file ", chr, ".chr..."));
+if (typeof(eval[2][1]) == LIST)
+"Setup for FUP";
 eval(tostr(";$ansi_utils.(\"", chr, "\")=fileread(\"\", \"", chr, ".chr\")[1];"));
 else
-player:notify(tostr("FUP detected, please create a file named \"", chr, ".chr\" in the FUP directory and put an ASCII character ", code, " in it.  This can be done on most systems with the command:  echo -e '\\", octal, "' > ", chr, ".chr  from the FUP directory."));
+"Setup for FIO";
+handle = file_open(tostr("/", chr, ".chr"), "r-tn");
+$ansi_utils.(chr) = file_readline(handle);
+file_close(handle);
+endif
+else
+player:notify(tostr("File builtin detected, please create a file named \"", chr, ".chr\" in the files directory and put an ASCII character ", code, " in it.  This can be done on most systems with the command:  echo -e '\\", octal, "' > ", chr, ".chr  from the files directory."));
 spiffy = 0;
 endif
 else
 z = this.(chr) = tostr("<----- ", $string_utils:uppercase(chr), " ----->");
-player:notify(tostr("I can't find any way to set $ansi_utils.", chr, ", please either install the FUP or ascii() server patches and rerun this verb, or shut down the MOO, load the DB into an editor, and replace \"", z, "\" with an ASCII character ", code, "."));
+player:notify(tostr("I can't find any way to set $ansi_utils.", chr, ", please either install the FUP, FileIO, or chr() server patches and rerun this verb, or shut down the MOO, load the DB into an editor, and replace \"", z, "\" with an ASCII character ", code, "."));
 spiffy = 0;
 endif
 endif
@@ -86490,26 +87740,10 @@ endif
 if (m = rmatch(string, this.group_colors_regexp))
 codes = codes + string[m[1]..m[2]];
 endif
-if (m = rmatch(string, this.group_bg_colors_regexp))
+if (m = rmatch(string, this.group_backgrounds_regexp))
 codes = codes + string[m[1]..m[2]];
 endif
 return codes;
-.
-#101:36
-if (caller != this)
-return E_PERM;
-elseif (`function_info("parse_ansi") ! E_INVARG')
-return call_function("parse_ansi", @args);
-endif
-{line} = args;
-codes = this.replace_code_pointers[1];
-while (m = match(line, this.notify_regexp))
-z = line[m[1] + 1..m[2] - 1];
-(z == "random") && (z = this.random_colors[random($)]);
-line[m[1]..m[2]] = (z in codes) ? this:get_code(z) | "";
-((ticks_left() < 75) || (seconds_left() < 2)) && suspend(0);
-endwhile
-return strsub(line, "[null]", "");
 .
 #103:0
 "Usage:  :parse_send_args(msg, @posargs, @keywordargs)";
@@ -87449,6 +88683,130 @@ for attribute in (mapkeys(attributes))
 type = tostr(type, ";", attribute, "=", attributes[attribute]);
 endfor
 return type;
+.
+#112:5
+{object, verb, documentation, @options} = args;
+"check arguments and permissions";
+valid(object) || raise(E_INVARG);
+`{owner, flags, name} = verb_info(object, verb) ! E_VERBNF' || raise(E_VERBNF);
+perms = caller_perms();
+((perms.wizard || (perms == owner)) || index(flags, "w")) || raise(E_PERM);
+perms.programmer || raise(E_PERM);
+"check format";
+if (typeof(documentation) != LIST)
+raise(E_INVARG, tostr("Invalid format: ", toliteral(documentation)), documentation);
+endif
+errors = {};
+for line in (documentation)
+try
+this:validate_doc_format(line);
+except ex (E_INVARG)
+errors = {@errors, ex[2]};
+endtry
+endfor
+if (errors)
+return errors;
+endif
+"grab verb code before dropping perms";
+verb_code = verb_code(object, verb, 0, 0);
+"drop wiz-perms";
+set_task_perms(perms);
+chunks = this:unpack_verb_code(verb_code);
+"must not be a legacy/naked verb";
+(length(chunks) > 1) || raise(E_INVARG, "Cannot document legacy verbs");
+"delete existing doc chunks";
+saved_chunks = {};
+for chunk in (chunks)
+if (`chunk["metadata"]["chunk_type"] ! E_RANGE' != "documentation")
+saved_chunks = {@saved_chunks, chunk};
+endif
+endfor
+metadata = ["chunk_type" -> "documentation", "chunk_length" -> length(documentation), "content_type" -> "application/json", "sha1" -> value_hash(documentation, "sha1")];
+for line, i in (documentation)
+documentation[i] = generate_json(line, "embedded-types");
+endfor
+code = this:pack_verb_code({@saved_chunks, ["metadata" -> metadata, "source" -> documentation]});
+return set_verb_code(object, verb, code);
+.
+#112:6
+{object, verb, @options} = args;
+"check arguments and permissions";
+valid(object) || raise(E_INVARG);
+`{owner, flags, name} = verb_info(object, verb) ! E_VERBNF' || raise(E_VERBNF);
+perms = caller_perms();
+((perms.wizard || (perms == owner)) || index(flags, "r")) || raise(E_PERM);
+perms.programmer || raise(E_PERM);
+"grab verb code before dropping perms";
+verb_code = verb_code(object, verb, 0, 0);
+"drop wiz-perms";
+set_task_perms(perms);
+chunks = this:unpack_verb_code(verb_code);
+for chunk in (chunks)
+if (`chunk["metadata"]["chunk_type"] ! E_RANGE' == "documentation")
+documentation = `chunk["source"] ! E_RANGE => {}';
+for line, i in (documentation)
+documentation[i] = parse_json(line, "embedded-types");
+endfor
+return documentation;
+endif
+endfor
+return {};
+.
+#112:7
+"not $private(), but not part of the published interface";
+{line} = args;
+if ((t = typeof(line)) == STR)
+return;
+elseif (t == LIST)
+if ((l = length(line)) && (typeof(line[1]) == STR))
+if (l == 1)
+return;
+else
+attrs = [];
+if (typeof(line[2]) == MAP)
+{_, attrs, @line} = line;
+else
+{_, @line} = line;
+endif
+for v, k in (attrs)
+if (typeof(v) != STR)
+raise(E_INVARG, tostr("Bad format: ", toliteral(v)), v);
+endif
+if (typeof(k) != STR)
+raise(E_INVARG, tostr("Bad format: ", toliteral(k)), k);
+endif
+endfor
+for l in (line)
+this:_validate_doc_format(l);
+endfor
+endif
+return;
+endif
+endif
+raise(E_INVARG, tostr("Bad format: ", toliteral(line)), line);
+.
+#112:8
+{object, verb, @options} = args;
+"check arguments";
+valid(object) || raise(E_INVARG);
+`{owner, perms, name} = verb_info(object, verb) ! ANY' || raise(E_VERBNF);
+"check permissions";
+callerp = caller_perms();
+((`callerp.wizard ! E_INVIND' || (valid(callerp) && (callerp == owner))) || index(perms, "r")) || raise(E_PERM);
+`callerp.programmer ! E_INVIND' || raise(E_PERM);
+"drop wiz-perms";
+set_task_perms(callerp);
+{dobj, prep, iobj} = verb_args(object, verb);
+ret = ["owner" -> owner, "perms" -> perms, "names" -> name, "dobj" -> dobj, "prep" -> prep, "iobj" -> iobj];
+code = verb_code(object, verb);
+chunks = this:unpack_verb_code(code);
+`ret["updated_at"] = chunks[2]["metadata"]["updated_at"] ! E_RANGE';
+`ret["updated_by"] = toobj(chunks[2]["metadata"]["updated_by"]) ! E_RANGE';
+`ret["content_type"] = chunks[2]["metadata"]["content_type"] ! E_RANGE';
+`ret["sha1"] = chunks[2]["metadata"]["sha1"] ! E_RANGE';
+`ret["state"] = chunks[2]["metadata"]["state"] ! E_RANGE';
+`ret["revision"] = toint(chunks[2]["metadata"]["revision"]) ! E_RANGE';
+return ret;
 .
 #113:0
 (caller != this) && raise(E_PERM);
@@ -89218,7 +90576,7 @@ set_task_perms(caller_perms());
 try
 vd = $verb_detail(o, v);
 code = verb_code(o, v);
-doc = $verb_doc(o, v);
+doc = $compiler_utils:verb_doc(o, v);
 d = ["owner" -> vd["owner"], "perms" -> vd["perms"], "names" -> vd["names"], "dobj" -> vd["dobj"], "prep" -> vd["prep"], "iobj" -> vd["iobj"]];
 d["code"] = code;
 doc && (d["documentation"] = doc);
@@ -89277,7 +90635,7 @@ endif
 endif
 vd = `r1["documentation"] ! E_RANGE';
 if (vd != E_RANGE)
-if ($set_verb_doc(o, v, vd))
+if ($compiler_utils:set_verb_doc(o, v, vd))
 r["Error"] = ["diagnostic" -> "documentation format errors"];
 return r;
 endif
