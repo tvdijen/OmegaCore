@@ -3,7 +3,7 @@
 Released TBD
 
 ### Features
-  * ANSI 2.2
+  * ANSI 2.4
   * MCP 2.1
   * Syslog-object
   * Composed + Shapes
